@@ -14,6 +14,10 @@ local function write(path, data)
     f:close()
 end
 
+local function gvr()
+    return "_" .. math.random(1,1024) .. "_" .. math.random(1,1024)
+end
+
 local function gso(len, key)
     local ord = {}
     for i = 1, len do ord[i] = i end
