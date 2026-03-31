@@ -1,3 +1,5 @@
+math.randomseed(os.time())
+
 local input  = arg[1] or "input.lua"
 local output = arg[2] or "output.lua"
 
